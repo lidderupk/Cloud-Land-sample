@@ -40,7 +40,7 @@ import com.ibm.bluemix.appid.android.api.tokens.IdentityToken;
  */
 public class MainActivity extends AppCompatActivity {
 
-    private final static String region = ".stage1.eu-gb.mybluemix.net";//AppID.REGION_US_SOUTH; //AppID.REGION_SYDNEY or AppID.REGION_UK
+    private final static String region = AppID.REGION_US_SOUTH; //AppID.REGION_SYDNEY or AppID.REGION_UK
     private AppID appId;
     private AppIDAuthorizationManager appIdAuthorizationManager;
     private ProgressManager progressManager;
