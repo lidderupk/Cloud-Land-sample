@@ -1,7 +1,7 @@
 # Cloud-Land-sample
 Android application with custom sign-in screen, using App ID Cloud Directory API.
 
-![alt text](/app/src/main/res/drawable/cloud_land_login.png)
+![alt text](/app/src/main/res/drawable/cloud_land_login.png | width=100)
 
 ## Before running 
 1. Create App ID service from the [IBM Cloud services catalog](https://console.bluemix.net/catalog/services/app-id?taxonomyNavigation=apps).
