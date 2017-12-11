@@ -9,6 +9,6 @@ Android application with custom sign-in screen, using App ID Cloud Directory API
 2. In the App ID dashboard go to the _service credentials_ tab
 3. In the _Action_ column click on _View credentials_. (or create new credentials if there aren't)
 4. Copy the _tenantId_ GUID number.
-5. Paste the _tenantId_ to the [_credentials.xml_](/app/src/main/res/values/credentials.xml)
-6. Go to MainActivity.java and change the region according to the region your App ID instance is deployed.
+5. Paste the _tenantId_ to the [credentials.xml](/app/src/main/res/values/credentials.xml)
+6. Go to [MainActivity.java](/app/src/main/java/com/ibm/bluemix/appid/cloud/directory/android/sample/appid/MainActivity.java) and change the region according to the region your App ID instance is deployed.
 7. Run the Cloud Land app.
