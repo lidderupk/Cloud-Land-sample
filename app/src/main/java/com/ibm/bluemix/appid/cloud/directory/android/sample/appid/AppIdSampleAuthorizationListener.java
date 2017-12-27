@@ -38,7 +38,12 @@ public class AppIdSampleAuthorizationListener implements AuthorizationListener {
     public void onAuthorizationFailure(AuthorizationException exception) {
         Log.e(logTag("onAuthorizationFailure"),"Authorization failed", exception);
         progressManager.hideProgress();
-        progressManager.showAlert("Oops...", exception.getMessage());
+        String errorMsg = exception.getMessage();
+        if (errorMsg != null && errorMsg.contains("selfServiceEnabled is OFF")) {
+            progressManager.showAlert("Oops...", "You can not perform this action");
+        } else {
+            progressManager.showAlert("Oops...", exception.getMessage());
+        }
     }
 
     @Override
