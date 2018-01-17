@@ -1,4 +1,5 @@
 # Cloud-Land-sample
+[Use your own branded UI for user sign-in with App ID - IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2018/01/use-branded-ui-user-sign-app-id)</br>
 Android application with custom sign-in screen, using App ID Cloud Directory APIs.
 
 ![alt text](/app/src/main/res/drawable/cloud_land_login.png)
